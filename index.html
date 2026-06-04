@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web video 360 Đơn Giản</title>
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+</head>
+<body>
 
+    <a-scene>
+        <a-assets>
+            <video id="video360" src="vd.mp4" autoplay loop muted playsinline></video>
+        </a-assets>
+
+        <a-videosphere src="#video360"></a-videosphere>
+    </scene>
+
+</body>
+</html>
